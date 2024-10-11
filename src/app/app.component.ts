@@ -48,8 +48,7 @@ export class AppComponent implements OnInit {
         this.nuevoUsuario = { id: 0, nombre: '', email: '', empresa: '' }; 
       });
   }
-
-  // Método para cargar los datos de un usuario al formulario de modificación
+  
   cargarDatosUsuario(id: number) {
     const usuarioEncontrado = this.usuarios.find(usuario => usuario.id === id);
     if (usuarioEncontrado) {

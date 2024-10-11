@@ -1,5 +1,5 @@
 export interface Usuario {
-  id: number; // Agrega esta línea
+  id: number;
   nombre: string;
   email: string;
   empresa: string;
